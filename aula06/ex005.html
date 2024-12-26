@@ -20,14 +20,15 @@
     <p>
         aprendendo a usar  <strong>dom</strong> em Javascript
     </p>
-    <div>clique em mim</div>
+    <div id="msg">clique em mim</div>
 
     <script>
-        var p1 = window.document.getElementsByTagName('p')[1]
         var corpo = window.document.body
-        window.document.write(p1.innerText)
-        p1.style.color = 'blue'
-        window.alert('p1.innerHTML')
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = winndow.document.getElementByd('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando'
+        
     </script>
 </body>
 </html>
